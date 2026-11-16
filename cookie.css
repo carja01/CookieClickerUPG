@@ -1,0 +1,7 @@
+.cookieBild{
+    display: flex;
+    margin-top:100%;
+}
+.cookieBild:hover{
+    transform: scale(120%);
+}
