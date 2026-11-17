@@ -1,7 +1,83 @@
-.cookieBild{
+header{
     display: flex;
-    margin-top:100%;
+    background-color: rgb(253, 202, 255);
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    align-content: center;
+    justify-content: center;
+    border: 10px solid rgb(83, 40, 85);
+    
 }
-.cookieBild:hover{
-    transform: scale(120%);
+body{
+    margin:0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgb(255, 239, 254);
+}
+
+.cookie img:hover{
+   transform: scale(1.3); 
+   transition: 1s;
+
+}
+.cookie img{
+    margin-top:12%;
+    transform: scale(1.0);
+    transition: 1s;
+}
+.allt{
+    display: flex;
+    flex-direction: row;
+}
+.cookie{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 239, 254);
+    padding-bottom: 20%;
+    width:35%;
+    border-right: 10px solid rgb(83, 40, 85);
+}
+.mitten{
+    width:40%;
+    margin-bottom:50%;
+}
+.upgrades{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3;
+    margin-right: 3;
+    background-color: rgba(83, 40, 85, 0.3);
+    width:25%;
+    border-left: 10px solid rgb(83, 40, 85);
+}
+
+.UserTitel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:3%;
+    background-color: rgba(83, 40, 85, 0.3);
+    padding-top:-1%;
+    padding-bottom: -1%;
+}
+.antalKakor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(83, 40, 85, 0.3);
+    padding-top:-1%;
+    padding-bottom: -1%;
+}
+.cookieBild{
+    margin-top:8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid rgb(83, 40, 85);
 }

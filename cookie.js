@@ -4,8 +4,13 @@ let text = document.getElementById('antalCookies');
 const cookieBild = document.getElementById('cookieBild');
 
 cookieBild.addEventListener('click', function(event){
-        antalCookies++;
-    text.textContent = "Antal kakor: " + antalCookies; 
+        if(antalPower<=1){
+            antalCookies++;
+    text.textContent = "Antal kakor: " + antalCookies; }
+    else{
+        antalCookies=antalCookies+1*antalPower;
+        text.textContent = "Antal kakor: " + antalCookies; 
+    }
 }
 );
 
