@@ -4,7 +4,7 @@ const monika = document.getElementById('monika');
 const upgrades=document.getElementById('upgrades');
 
 secret.addEventListener('click', function(event){
-    if(antalCookies>10){
+    if(antalCookies>999999){
         antalCookies=antalCookies-1000000
         text.textContent = "Cookies: " + antalCookies;
         window.open("secretSayori.html", "_blank");
