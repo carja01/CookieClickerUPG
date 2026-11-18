@@ -5,7 +5,7 @@ const upgrades=document.getElementById('upgrades');
 
 secret.addEventListener('click', function(event){
     if(antalCookies>10){
-        antalCookies=antalCookies-2000000
+        antalCookies=antalCookies-1000000
         text.textContent = "Cookies: " + antalCookies;
         window.open("secretSayori.html", "_blank");
         document.getElementById('monika').style.display = "block";
@@ -13,7 +13,7 @@ secret.addEventListener('click', function(event){
     },2000);
 }
     else{
-        antalCookies=antalCookies-1000
+        antalCookies=antalCookies-10000
         text.textContent = "Cookies: " + antalCookies;
         alert("You don't have enough cookies yet, and either way, this is not something you would want to see...")
     } 
