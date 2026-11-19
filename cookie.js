@@ -77,8 +77,7 @@ knapp1.addEventListener('click', function(event){
     text.textContent = "Cookies: " + antalCookies;
 
 
-    const skapare1 = setInterval(function()
-{
+    const skapare1 = setInterval(function(){
 antalCookies=antalCookies+1;
 text.textContent = "Cookies: " +antalCookies;
 },5000);
